@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/cssjs/w3.css">
+    <link rel="stylesheet" type="text/css" href="/cssjs/la/css/line-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/cssjs/waitMe.min.css">
+    <link href="/cssjs/jquery-countryselector.min.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="w3-padding-bottom w3-margin-bottom">
+    <div>
+        <a class="w3-btn w3-cursive w3-margin w3-small w3-round w3-text-white " style="background:rgba(255, 255, 255, 0.5);" href="/"><b>Back</b></a>
+    </div>
+    <div class="w3-content   login w3-white">
+        <div class=" w3-padding animated slideInDown slower">
+            <h4 class="w3-center"><b>
+                </b></h4>
+        </div>
+                <form action="register" method="post" class="animated slideInUp slower  w3-border-black w3-padding">
+            <div class="w3-center">
+                <h4><b>SIGNUP</b></h4>
+                <div class="w3-small w3-text-blac">
+                    Fill in correct details to complete registration .
+                </div>
+            </div>
+            <input type="hidden" name="refer" value="NB">
+            <input name="actype" type="hidden" value="classic">
+            <div class="w3-center  w3-margin">
+                <div class="input w3-margin-top " style="background: ">
+                    <i class="las la-users la-2x w3-text-white " style="background: lightgrey;"></i>
+                    <input type="text" value="Your Refer - NB" class="w3-small w3-text-white" disabled style="background: lightgrey;">
+                </div>
+                <div class="input w3-margin-top">
+                    <i class="las la-user-edit la-2x w3-circle"></i>
+                    <input type="text" name="name" placeholder="Your Name" required class="w3-small" minlength="5">
+                </div>
+                <div class="input w3-margin-top">
+                    <i class="las la-mail-bulk la-2x w3-circle"></i>
+                    <input type="email" name="email" placeholder="Your Email Address" required class="w3-small">
+                </div>
+                <div class="input w3-margin-top ">
+                    <i class="las la-unlock-alt la-2x w3-circle"></i>
+                    <input type="password" name="password" minlength="6" placeholder="Your password ***" required class="w3-small">
+                </div>
+                <div class="input w3-margin-top ">
+                    <i class="las la-unlock-alt la-2x w3-circle"></i>
+                    <input type="password" name="password2" minlength="6" placeholder="Confirm Your password ***" required class="w3-small">
+                </div>
+                
+                <h4 class="w3-padding w3-large" style="text-transform:uppercase;"><b>Payment Info (<span class="w3-small w3-text-red">Optional</span>)</b></h4>
+                <div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--8" class=" w3-small " placeholder="bitcoin" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--26" class=" w3-small " placeholder="Usdt bep20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--27" class=" w3-small " placeholder="Ethereum bep20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--28" class=" w3-small " placeholder="Smart chain (bnb)" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--29" class=" w3-small " placeholder="Bitcoin  (Btc network)" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--31" class=" w3-small " placeholder="Solana bep20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--32" class=" w3-small " placeholder="Bitcoin bep20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--33" class=" w3-small " placeholder="Usdt Erc20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--34" class=" w3-small " placeholder="Ethereum Erc20" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--35" class=" w3-small " placeholder="Bitcoincash (BCH)" style="font-weight: bolder;">
+                    </div>
+                                        <div class="input w3-margin-top ">
+                        <i class="las la-money-bill la-2x w3-circle"></i>
+                        <input type="text"  name="payment--36" class=" w3-small " placeholder="Litecoin (Bep20)" style="font-weight: bolder;">
+                    </div>
+                                    </div>
+                
+                <div class=" w3-text-blue w3-margin-top w3-container">
+                    <a href="/login" class=" w3-tiny w3-left w3-hover-text-teal">Login Here </a>
+                    <a href="/reset" class=" w3-tiny w3-right w3-hover-text-teal">Reset Password</a>
+                </div>
+                <div class=" w3-margin-top">
+                    <button class="w3-padding    w3-hover-blue w3-input"><b>REGISTER</b></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    <!-- /.container -->
+</section>
+<br><br>
+<script src="/cssjs/jquery.min.js"></script>
+<script src="/cssjs/jquery.countrySelector.js"></script>
+<script src="/cssjs/sweetalert2.min.js"></script>
+<script src="/cssjs/waitMe.min.js"></script>
+<style type="text/css">
+:root {
+    --background: linear-gradient(to right, black, darkorange);
+    --btncolor: darkorange;
+    --btntext: white;
+}
+
+button {
+    width: 70%;
+    border-radius: 0px;
+    padding: 5px;
+    outline: none;
+    color: var(--btntext);
+    font-size: small;
+    background: var(--btncolor);
+    border-width: 0px;
+    box-shadow: 1px 0px 5px white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+
+    color: #04001b;
+    padding: 5px;
+
+    outline: none;
+    border: 1px solid grey;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+.input i {
+    min-width: 50px;
+    padding: 10px;
+    outline: none;
+
+    background: var(--btncolor);
+    position: absolute;
+    margin-left: 0px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-width: 0px !important;
+    outline: none;
+    height: 50px;
+    padding-left: 55px;
+}
+
+select {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-width: 0px !important;
+    outline: none;
+    height: 50px;
+    padding-left: 55px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    padding: 2px;
+}
+
+.tcolor {
+    color: #04001b;
+}
+
+.w3-circle {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.login {
+    margin-top: 2%;
+    max-width: 500px;
+    color: var(--btntext);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background: black;
+}
+</style>
+<script>
+$("#country").countrySelector({ value: 'USA' });
+$('form').submit((event) => {
+    $('button').waitMe({ effect: 'facebook' });
+    event.preventDefault();
+    if ($('input[name="password2"]').val() != $('input[name="password"]').val()) {
+        Swal.fire({
+            icon: 'error',
+            title: "INPUT ERORR",
+            text: "password provided did not match check and re submit again "
+        });
+        $('button').waitMe("hide");
+    } else {
+
+        $.post("/register", { "form": $('form').serialize() }, (data) => {
+            try {
+                data = JSON.parse(data);
+
+                if (data.stat === 0) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: "ERORR",
+                        text: data.error
+                    });
+                    $('button').waitMe("hide");
+
+                }
+                if (data.stat === 1) {
+
+                    
+                    Swal.fire({
+                        icon: 'success',
+                        title: "success",
+                        text: "Account Registered Successful You Can now Login  ."
+                    }).then(() => { location = "/login" });
+
+                    
+                    console.log(data);
+
+                }
+            } catch (e) {
+                Swal.fire({
+                    icon: 'error',
+                    title: "ERORR",
+                    text: "Server Error , Try again in few minutes.."
+                });
+                console.log(e);
+                $('button').waitMe("hide");
+            }
+
+
+
+        });
+    }
+});
+</script>
+<div id="google_translate_element" style="display:none;"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style type="text/css">
+.one-coin-widget-frame__footer {
+    display: none;
+}
+
+#google_translate_element {
+    color: white !important;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+
+}
+
+#google_translate_element a {
+    display: none;
+
+}
+
+div.goog-te-gadget {
+    color: transparent;
+    border: 0px solid blue;
+    overflow: hidden;
+    height: 35px;
+    position: relative;
+    margin: 0px;
+
+}
+
+.goog-te-combo {
+    background: black;
+    margin-top: -50px;
+    position: relative;
+    height: 30px;
+    top: 0px;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: x-small;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+</style>
+
+</body>
+</html>
